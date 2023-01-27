@@ -3,8 +3,8 @@
 # importing calendar module
 import calendar
 
-yy = 2023  # year
-mm = 1    # month
+y = int(input(Enter year:))  # year
+m = int(input(Enter month:))    # month
 
 # display the calendar
-print(calendar.month(yy, mm))
+print(calendar.month(y, m))
